@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  transform-style: preserve-3d;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.companyH{
+}
+
+.rect{
+  animation: movement 3s; 
+}
+
+@keyframes movement {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(400px , 0);
+  }
+}
+
+.texto {
+    -webkit-text-stroke: red;
+}
+
+.hatari {
+  transform:
+    rotate3d(.5,-.866,0,15deg)
+    rotate(1deg);
+  box-shadow:
+    2em 4em 6em -2em rgba(0,0,0,.5),
+    1em 2em 3.5em -2.5em rgba(0,0,0,.5);
+  transition:
+    transform .4s ease,
+    box-shadow .4s ease;
+  border-radius: .5em;
+
+  &:hover {
+    transform:
+      rotate3d(0,0,0,0deg)
+      rotate(0deg);
+  }
+}
+
+.leftmover {
+  animation-name: scrollerleft;
+  animation-iteration-count: infinite;
+  animation-duration: 50s;
+  animation-delay: 1s;
+  scrollbar-width: none;
+}
+@keyframes scrollerleft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+      transform: translateX(-3000px);
+    }
+}
+
+.rightmover{
+  animation-name: scrollerright;
+  animation-iteration-count: infinite;
+  animation-duration: 50s;
+  animation-delay: 1s;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+@keyframes scrollerright {
+    from {
+        transform: translateX(-2500px);
+    }
+    to {
+      transform: translateX(10px);
+    }
+}
+
+.container {
+  perspective: 1000px;
+  perspective-origin: center;
+  padding: 10px;
+}
+
+.dialog::after {
+  content: '';
+  width: 40;
+  height: 40;
+  background-color: rgba(250, 250,250, 1);
+  position: absolute;
+  transform: rotate(40deg);
+  bottom: -10;
+  left: 90;
+  z-index: -1;
+}
+
+.glower {
+  box-shadow: 0 0 60 100 rgba(0,0,250,0.8);
+}

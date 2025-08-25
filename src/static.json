@@ -1,0 +1,43 @@
+{
+    "Web Design": [
+        {
+            "name" : "BASIC",
+            "price": "900,000 | USD 380",
+            "services": ["Domain", "SSL Certificate", "Unlimited Hosting", "Unlimited Emails", "Malicious Security", "Live Chat System", "Business Logo", "Search Engine Optimization", "Responsive & Dynamic Website", "Support & Maintenance", "Social Media Setups"]
+        },
+        {
+            "name" : "GOLD",
+            "price": "1,200,000 | USD 500",
+            "services": ["Domain", "SSL Certificate", "Unlimited Hosting", "Unlimited Emails", "Malicious Security", "Live Chat System", "Business Logo", "Search Engine Optimization", "Google Listing",  "Responsive & Dynamic Website", "Support & Maintenance(1 Month)", "Booking System", "Social Media Setups"]
+        },
+        {
+            "name" : "PREMIUM",
+            "price": "1,700,000 | USD 700",
+            "services": ["Domain", "SSL Certificate", "Unlimited Hosting", "Unlimited Emails", "Malicious Security", "Live Chat System", "Google Listing","Business Logo", "Search Engine Optimization", "Responsive & Dynamic Website", "Support & Maintenance(3 Month)", "Booking System", "Payment Gateway", "Social Media Setups"]
+        }
+    ],
+    "Web Hosting": [
+        {
+            "name" : "GOLD",
+            "price": "120,000 | USD 60",
+            "services": ["Domain", "SSL Certificate", "Unlimited Hosting", "Unlimited Emails", "Malicious Security",  "Business Logo","Support & Maintenance(1 Month)"]
+        }
+    ],
+    "Social Media Managing": [
+        {
+            "name" : "POPULAR",
+            "price": "200,000 | USD 90",
+            "services": ["Social Media Branding", "Three(3) Posters", "One Motion Graphics","Promotional Plan", "Unlimited Hosting"]
+        },
+        {
+            "name" : "PROFESSIONAL",
+            "price": "300,000 | USD 130",
+            "services": ["Social Media Branding", "Three(3) Posters", "Promotional Plan", "Unlimited Hosting"]
+        },
+        {
+            "name" : "BUSINESS",
+            "price": "500,000 | USD 250",
+            "services": ["Social Media Branding", "Three(3) Posters", "Product Poster", "Three(3) Motion Graphics", "Promotional Plan", "Unlimited Hosting"]
+        }
+    ]
+}
