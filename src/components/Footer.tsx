@@ -114,7 +114,7 @@ export default function Footer() {
               <Link href="https://youtube.com/jomafa"><FaYoutube className="size-5 lg:size-10 sm:size-5"/></Link>
             </li>
             <li className="self-center rounded-2xl bg-gray-900 p-5 text-center hover:bg-gray-800">
-              <Link href="https://facebook.com/jomafa"><FaWhatsapp className="size-5 lg:size-10 sm:size-5"/></Link>
+              <Link href="https://wa.me/255625250232"><FaWhatsapp className="size-5 lg:size-10 sm:size-5"/></Link>
             </li>
             <li className="self-center rounded-2xl bg-gray-900 p-5 text-center hover:bg-gray-800">
               <Link href="https://discord.com/jomafa"><FaDiscord className="size-5 lg:size-10 sm:size-5"/></Link>
