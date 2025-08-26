@@ -5,12 +5,12 @@ import Image from "next/image";
 export default async function Blogs() {
   const blogs = await getAllBlogData();
   return (
-    <div className="prose prose-xl dark:prose-invert container mx-auto flex w-max flex-col justify-center self-center px-4 text-center align-middle">
+    <div className="prose prose-xl dark:prose-invert container mx-auto flex flex-col justify-center self-center px-100 text-center align-middle">
       <h1 className="text-9xl my-4 text-center font-bold text-white">
         Blog
       </h1>
-      <p>News, Howto and updates from JOMAFA</p>
-      <ul className="flex flex-1/2 flex-wrap px-5 gap-10 justify-center sm:flex-col lg:flex-row md:flex-col flex-col">
+      <p className="text-3xl ">News, Howto and updates from JOMAFA</p>
+      <ul className="flex flex-1/2 flex-wrap flex-col align-middle justify-center self-center-safe gap-10 lg:flex-row px-20">
         {blogs.map(({ slug, metadata: { title, cover, description } }) => (
           <li key={slug} className="bg-white rounded-xs w-100">
             <Link prefetch={false} href={`/blog/${slug}`}>

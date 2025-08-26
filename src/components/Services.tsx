@@ -169,7 +169,7 @@ export default function Services(){
           <div className="flex min-w-100 flex-row group bg-gray-200 p-5 text-black shadow-gray-400 hover:shadow-lg">
             <IoBag className="text-gray-600 size-10  group-hover:text-blue-500 group-hover:rotate-10 transition-all ease-in duration-500 group-hover:scale-132"/>
             <div className="">
-              <h1 className="text-2xl font-bold">Interior Design</h1>
+              <h1 className="text-2xl font-bold">Interior &amp; Exterior Design</h1>
               <p
                 className="text-sm text-gray-800"
               >

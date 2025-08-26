@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="">
       <body
-        className={`flex flex-col overflow-scroll bg-gray-950 antialiased `}
+        className={`flex flex-col  bg-gray-950 antialiased  `}
       >
         <Navigation />
         {children}

@@ -77,8 +77,8 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-col lg:flex-row justify-between gap-5 p-2">
-        <div className="flex flex-col">
+      <div className="flex flex-col sm:flex-col lg:flex-row md:flex-col justify-between gap-5 p-2">
+        <div className="flex flex-col px-10">
           <Link href="/">
             <Image
               src="/jomafa.png"
@@ -87,39 +87,40 @@ export default function Footer() {
               height={200}
             />
           </Link>
-          <ul className="flex flex-row gap-5">
+          <ul className="flex flex-row gap-5 sm:text-sm text-sm">
             <li className="hover:text-blue-500">
-              <Link href="/feedback">Feedback</Link>
+              <Link href="/feedback" className="text-sm">Feedback</Link>
             </li>
             <li className="hover:text-blue-500">
-              <Link href="/legal">Legal</Link>
+              <Link href="/legal" className="text-sm">Legal</Link>
             </li>
             <li className="hover:text-blue-500">
-              <Link href="/trust">Trust & Compliance</Link>
+              <Link href="/trust" className="text-sm">Trust & Compliance</Link>
             </li>
             <li className="hover:text-blue-500">
-              <Link href="/rss">RSS Feed</Link>
+              <Link href="/rss" className="text-sm">RSS Feed</Link>
             </li>
           </ul>
         </div>
         <div className="flex flex-col gap-5 p-5">
-          <ul className="flex flex-row gap-5">
-            <li className="self-center rounded-2xl bg-gray-900 p-5 text-center hover:bg-gray-800">
+          <ul className="flex flex-row gap-2 lg:gap-5 sm:gap-2">
+            <li className="self-center rounded-2xl bg-gray-900 sm:p-3 lg:p-5 p-3 text-center hover:bg-gray-800">
               <Link href="sms:+255625250232"><FaSms className="size-5 lg:size-10 sm:size-5"/></Link>
             </li>
-            <li className="self-center rounded-2xl bg-gray-900 p-5 text-center hover:bg-gray-800">
+            <li className="self-center rounded-2xl bg-gray-900 sm:p-3 lg:p-5 p-3 text-center hover:bg-gray-800">
               <Link href="https://instagram.com/jomafa"><FaInstagram className="size-5 lg:size-10 sm:size-5"/></Link>
             </li>
-            <li className="self-center rounded-2xl bg-gray-900 p-5 text-center hover:bg-gray-800">
+            <li className="self-center rounded-2xl bg-gray-900 sm:p-3 lg:p-5 p-3 text-center hover:bg-gray-800">
               <Link href="https://youtube.com/jomafa"><FaYoutube className="size-5 lg:size-10 sm:size-5"/></Link>
             </li>
-            <li className="self-center rounded-2xl bg-gray-900 p-5 text-center hover:bg-gray-800">
+            <li className="self-center rounded-2xl bg-gray-900 sm:p-3 lg:p-5 p-3 text-center hover:bg-gray-800">
               <Link href="https://wa.me/255625250232"><FaWhatsapp className="size-5 lg:size-10 sm:size-5"/></Link>
             </li>
-            <li className="self-center rounded-2xl bg-gray-900 p-5 text-center hover:bg-gray-800">
+            <li className="self-center rounded-2xl bg-gray-900 sm:p-3 lg:p-5 p-3 text-center hover:bg-gray-800">
               <Link href="https://discord.com/jomafa"><FaDiscord className="size-5 lg:size-10 sm:size-5"/></Link>
             </li>
-            <li className="self-center rounded-2xl bg-gray-900 p-5 text-center hover:bg-gray-800">
+            
+            <li className="self-center rounded-2xl bg-gray-900 sm:p-3 lg:p-5 p-3 text-center hover:bg-gray-800">
               <Link href="https://discord.com/jomafa"><FaXTwitter className="size-5 lg:size-10 sm:size-5"/></Link>
             </li>
           </ul>

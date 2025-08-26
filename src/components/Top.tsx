@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function Top(){
     return (
-        <div className='h-dvh w-dvw hatari p-20 relative text-center self-center items-center text-white bg-[url("/uiz/bg.jpeg")] flex flex-col overflow-hidden'>
-        <h1 className=" z-0 scale-x-90 sm:scale-x-50 scale-y-200 sm:scale-y-100 lg:scale-x-110 lg:scale-y-120 stroke-red-500 sroke-2 p-5 px-0 lg:px-50 sm:text-9xl lg:text-8xl text-6xl font-extrabold">
+        <div className='h-dvh w-dvw hatari p-10 relative text-center self-center items-center text-white bg-[url("/uiz/bg.jpeg")] flex flex-col overflow-hidden'>
+        <h1 className=" z-0 scale-x-90 sm:scale-x-50 scale-y-100 sm:scale-y-100 lg:scale-x-110 lg:scale-y-120 stroke-red-500 sroke-2 p-5 px-0 lg:px-50 sm:text-9xl lg:text-8xl text-6xl font-extrabold">
           House of More than <span className="text-black bold animate-pulse">Technology</span>
         </h1>
-        <p className="p-10 px-5 lg:px-30 text-6xl lg:text-6xl sm:text-2xl md:text-2xl text-black">
+        <p className="p-10 px-5 lg:px-30 text-2xl lg:text-6xl sm:text-xl md:text-2xl text-black">
           We are doing it a bit Differently Here
         </p>
         <div className="flex flex-row">

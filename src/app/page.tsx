@@ -20,7 +20,7 @@ export default function Home() {
     return () => clearInterval(interval); // Cleanup on unmount
   }, [index]);
   return (
-    <main className="overflow-hidden bg-gray-950 ">
+    <main className="overflow-hidden bg-gray-950 flex flex-col justify-center itemcen ">
       <Top/>
       <Services/>
       <Portifolio/>

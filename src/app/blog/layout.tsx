@@ -13,5 +13,6 @@ export const metadata: Metadata = {
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  return <main className="mx-auto px-4 flex flex-col">{children}</main>;
+  return <main className="px-4 p-10 flex overflow-x-hidden flex-col justify-center items-center self-center align-middle">{children}</main>;
+  
 }

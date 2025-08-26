@@ -30,9 +30,9 @@ export default async function BlogPage({ params }) {
 
   return (
     <div
-      className={`prose lg:prose-xl dark:prose-invert container mx-auto p-4 flex flex-col ${markdownStyles.markdown} lg:px-50 px-10 items-center self-center`}
+      className={`prose lg:prose-xl dark:prose-invert container  mx-auto p-20 flex flex-col ${markdownStyles.markdown}  items-center self-center justify-center `}
     >
-      <Image src={cover} width={200} height={200} alt="cover image" />
+      <Image src={cover} width={200} height={200} alt="cover image" className="p-2" />
       <DiariesMarkdown/>
     </div>
   );
